@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Oxford_Blue">#030027</color>
+    <color name="Jungle_Green">#21A179</color>
+    <color name="Space_Cadet">#151E3F</color>
+    <color name="Beige">#F2F3D9</color>
+    <color name="Cerulean">#247BA0</color>
+    <color name="OxfordBlueA">#00072D</color>
+    <color name="penBlueA">#001C55</color>
+</resources>

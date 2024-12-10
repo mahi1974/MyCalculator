@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCalculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.MyCalculator" parent="Base.Theme.MyCalculator" />
+
+
+    <!--    This Is EditText Decoration-->
+    <style name="Tbx1">
+        <item name="android:background">@drawable/tbx</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/Jungle_Green</item>
+        <item name="android:width">200dp</item>
+        <item name="android:height">50dp</item>
+        <item name="android:layout_marginTop">200dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+
+    </style>
+
+    <!--    This Is Button Decoration-->
+    <style name="btn1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/Jungle_Green</item>
+        <item name="android:background">@drawable/button1</item>
+    </style>
+</resources>
