@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                                 result = firstNo / secondNo;
                                 break;
                             default:
-                                Toast.makeText(getApplicationContext(), "Something Went Wrong INSIDE", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Something Went Wrong INSIDE!", Toast.LENGTH_SHORT).show();
                         }
                         tbx.setText(String.valueOf(result));
 
